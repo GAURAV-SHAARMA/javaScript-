@@ -28,3 +28,45 @@ let someNumber = 33;
 let stringNumber = String(someNumber)
 console.log(stringNumber)
 console.log(typeof stringNumber)
+
+
+
+
+//**********************Operations******************* */
+
+
+let value = 3
+let negValue = -value
+
+console.log(negValue)
+
+let str1 = "hello"
+let str2 = " gaurav"
+
+let str3 = str1 + str2
+
+console.log(str3)
+
+console.log("1"+2)
+console.log(1+'2')
+console.log("1"+2+2)//122 taken as string
+console.log(1+2+'2')//32 string given at last (nt usable)
+
+console.log(true)//true
+console.log(+true)//1
+console.log(+"")//0
+// console.log(true+)//error
+
+
+let num1  , num2 , num3
+
+num1 = num2 = num3= 2+2
+console.log(num1)
+
+
+let gamecounter = 100
+gamecounter++
+++gamecounter// both do same work of increment here only
+console.log(gamecounter);
+
+
